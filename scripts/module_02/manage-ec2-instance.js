@@ -41,7 +41,7 @@ function terminateInstance (instanceId) {
   // TODO: Terminate an instance with a given instanceId
 }
 
-listInstances()
-.then(data => console.log(data))
-// terminateInstance('i-0171ce4852b109fb9')
+// listInstances()
 // .then(data => console.log(data))
+terminateInstance('i-0171ce4852b109fb9')
+.then(data => console.log(data))
