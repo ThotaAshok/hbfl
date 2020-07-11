@@ -9,7 +9,7 @@ AWS.config.update({region: 'us-east-1'})
 // TODO: Create an ec2 object
 const ec2 = new AWS.EC2()
 
-createImage('i-06a22a45e279495f3', 'hamsterImage')
+createImage('i-05d7b2102ce1c2d19', 'hamsterImage')
 .then(() => console.log('Complete'))
 
 function createImage (seedInstanceId, imageName) {
